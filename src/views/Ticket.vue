@@ -15,6 +15,7 @@
 <button  class="Brojj" v-on:click="getBroj(broj)" v-bind:key="broj" v-for="broj in niz">{{broj}}</button>
 </div>
 
+<div id="BrojTiketa"> <p id="BrojTiketaP">Broj Tiketa: {{BrojTiketa}}</p></div>
 
   </div>
   
@@ -96,12 +97,10 @@ this.prekidacc=!this.prekidacc;
 
     getBroj:function(x){
      let temp={};
-     
      if(!this.nizTemp.includes(x)){
-       this.nizTemp.push(x);
+     this.nizTemp.push(x);
      
-     
-       if(this.nizTemp.length==6){
+     if(this.nizTemp.length==6){
 temp.ID=this.BrojTiketa;
 temp.Kombinacija=this.nizTemp;
 this.KorisnickeKomb.push(temp);
@@ -126,8 +125,29 @@ margin-top: 4%;
 width: 48px;
 height: 48px;
 }
-
-
+.Brojj:focus{
+  margin-top: 4%;
+width: 48px;
+height: 48px;
+border-radius: 50%;
+background-color: black;
+}
+#BrojTiketa{
+width: 130px;
+height: 75px;
+background-color: yellow;
+position: absolute;
+border:solid;
+border-radius: 20%;
+margin-left: 80vw;
+margin-top: 80vh;
+}
+#BrojTiketaP{
+  color: red;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+}
 #ESC{
 border: solid;
 border-radius: 50%;
@@ -152,8 +172,8 @@ background-size: cover;
   width: 120px;
   height: 80px;
   position: absolute;
-  margin-left: 10%;
-  margin-top: 10%;
+  margin-left: 10vw;
+  margin-top: 10vh;
   border:solid;
   border-radius: 30%;
   background-color: yellow;

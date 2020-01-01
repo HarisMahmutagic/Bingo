@@ -2,15 +2,15 @@
   <div id="Game">
 
   <div id="PrviRed"><br><br><br><br>
-<div id="Jedan"></div><br><br>
-<div id="Dva"></div><br> <br>
-<div id="Tri"></div><br><br>
-<div id="Cetiri"></div><br><br>
-<div id="Pet"></div><br><br>
-<div id="Sest"></div><br><br>
-<div id="Sedam"></div><br><br>
-<div id="Osam"></div><br><br>
-<div id="Devet"></div><br><br>
+<div id="Jedan"><p class="BrojUKuglici">{{dobitnaKombinacija[5]}}</p></div><br><br>
+<div id="Dva"><p class="BrojUKuglici">{{dobitnaKombinacija[6]}}</p></div><br> <br>
+<div id="Tri"><p class="BrojUKuglici">{{dobitnaKombinacija[7]}}</p></div><br><br>
+<div id="Cetiri"><p class="BrojUKuglici">{{dobitnaKombinacija[8]}}</p></div><br><br>
+<div id="Pet"><p class="BrojUKuglici">{{dobitnaKombinacija[9]}}</p></div><br><br>
+<div id="Sest"><p class="BrojUKuglici">{{dobitnaKombinacija[10]}}</p></div><br><br>
+<div id="Sedam"><p class="BrojUKuglici">{{dobitnaKombinacija[11]}}</p></div><br><br>
+<div id="Osam"><p class="BrojUKuglici">{{dobitnaKombinacija[12]}}</p></div><br><br>
+<div id="Devet"><p class="BrojUKuglici">{{dobitnaKombinacija[13]}}</p></div><br><br>
   </div>
    <div id="DrugiRed"><br><br><br><br>
 <div class="PRVE">10000</div><br><br><br>
@@ -27,9 +27,9 @@
   <div id="Bubanj"><p id="Centar">{{rand}}</p></div>
 
 <div id="TreciRed">
-    <div id="Deset"></div><br>
-    <div id="Jedanaest"></div><br>
-    <div id="Dvanaest"></div>
+    <div id="Deset"><p class="BrojUKuglici">{{dobitnaKombinacija[14]}}</p></div><br>
+    <div id="Jedanaest"><p class="BrojUKuglici">{{dobitnaKombinacija[15]}}</p></div><br>
+    <div id="Dvanaest"><p class="BrojUKuglici">{{dobitnaKombinacija[16]}}</p></div>
 </div>
 <div id="CetvrtiRed"><br><br><br><br><br><br>
 <div class="PRVE">100</div><br><br>
@@ -37,9 +37,9 @@
 <div class="PRVE">80</div>
 </div>
 <div id="PetiRed">
-    <div id="Trinaest"></div><br>
-    <div id="Cetrnaest"></div><br>
-    <div id="Petnaest"></div>
+    <div id="Trinaest"><p class="BrojUKuglici">{{dobitnaKombinacija[17]}}</p></div><br>
+    <div id="Cetrnaest"><p class="BrojUKuglici">{{dobitnaKombinacija[18]}}</p></div><br>
+    <div id="Petnaest"><p class="BrojUKuglici">{{dobitnaKombinacija[19]}}</p></div>
 </div>
 
 <div id="SestiRed"><br><br><br><br><br><br>
@@ -49,9 +49,9 @@
 </div>
 
 <div id="SedmiRed">
-    <div id="Sesnaest"></div><br>
-    <div id="Sedamnaest"></div><br>
-    <div id="Osamnaest"></div>
+    <div id="Sesnaest"><p class="BrojUKuglici">{{dobitnaKombinacija[20]}}</p></div><br>
+    <div id="Sedamnaest"><p class="BrojUKuglici">{{dobitnaKombinacija[21]}}</p></div><br>
+    <div id="Osamnaest"><p class="BrojUKuglici">{{dobitnaKombinacija[22]}}</p></div>
 </div>
 
 <div id="OsmiRed"><br><br><br><br><br><br>
@@ -61,9 +61,9 @@
 </div>
 
 <div id="DevetiRed">
-    <div id="Devetnaest"></div><br>
-    <div id="Dvadeset"></div><br>
-    <div id="DvadesetJedan"></div>
+    <div id="Devetnaest"><p class="BrojUKuglici">{{dobitnaKombinacija[23]}}</p></div><br>
+    <div id="Dvadeset"><p class="BrojUKuglici">{{dobitnaKombinacija[24]}}</p></div><br>
+    <div id="DvadesetJedan"><p class="BrojUKuglici">{{dobitnaKombinacija[25]}}</p></div>
 </div>
 
 <div id="DesetiRed"><br><br><br><br><br><br>
@@ -73,15 +73,15 @@
 </div>
 
   <div id="JedanaestiRed"><br><br><br><br>
-<div id="DvadesetDva"></div><br><br>
-<div id="DvadesetTri"></div><br> <br>
-<div id="DvadesetCetiri"></div><br><br>
-<div id="DvadesetPet"></div><br><br>
-<div id="DvadesetSest"></div><br><br>
-<div id="DvadesetSedam"></div><br><br>
-<div id="DvadesetOsam"></div><br><br>
-<div id="DvadesetDevet"></div><br><br>
-<div id="Trideset"></div><br><br>
+<div id="DvadesetDva"><p class="BrojUKuglici">{{dobitnaKombinacija[26]}}</p></div><br><br>
+<div id="DvadesetTri"><p class="BrojUKuglici">{{dobitnaKombinacija[27]}}</p></div><br> <br>
+<div id="DvadesetCetiri"><p class="BrojUKuglici">{{dobitnaKombinacija[28]}}</p></div><br><br>
+<div id="DvadesetPet"><p class="BrojUKuglici">{{dobitnaKombinacija[29]}}</p></div><br><br>
+<div id="DvadesetSest"><p class="BrojUKuglici">{{dobitnaKombinacija[30]}}</p></div><br><br>
+<div id="DvadesetSedam"><p class="BrojUKuglici">{{dobitnaKombinacija[31]}}</p></div><br><br>
+<div id="DvadesetOsam"><p class="BrojUKuglici">{{dobitnaKombinacija[32]}}</p></div><br><br>
+<div id="DvadesetDevet"><p class="BrojUKuglici">{{dobitnaKombinacija[33]}}</p></div><br><br>
+<div id="Trideset"><p class="BrojUKuglici">{{dobitnaKombinacija[34]}}</p></div><br><br>
   </div>
 
  <div id="DvanaestiRed"><br><br><br><br><br>
@@ -97,11 +97,11 @@
   </div>
 
    <div id="TrinaestiRed"><br><br><br><br>
-<div id="TridesetJedan"></div><br><br>
-<div id="TridesetDva"></div><br> <br>
-<div id="TridesetTri"></div><br> <br>
-<div id="TridesetCetiri"></div><br> <br>
-<div id="TridesetPet"></div><br> <br>
+<div id="TridesetJedan"><p class="BrojUKuglici">{{dobitnaKombinacija[0]}}</p></div><br><br>
+<div id="TridesetDva"><p class="BrojUKuglici">{{dobitnaKombinacija[1]}}</p></div><br> <br>
+<div id="TridesetTri"><p class="BrojUKuglici">{{dobitnaKombinacija[2]}}</p></div><br> <br>
+<div id="TridesetCetiri"><p class="BrojUKuglici">{{dobitnaKombinacija[3]}}</p></div><br> <br>
+<div id="TridesetPet"><p class="BrojUKuglici">{{dobitnaKombinacija[4]}}</p></div><br> <br>
   </div>
 
 
@@ -204,7 +204,13 @@ font-size: 15px;
 
 }
 
+.BrojUKuglici{
+    margin-top: 11px;
+     font-size: 20px;
+   text-align: center;
+   color: blue;
 
+}
 
 #DrugiRed{
 
@@ -222,20 +228,25 @@ font-size: 15px;
 }
 #PrviRed{
   
-    width: 4%;
+    width: 3%;
     height: 90%;
     margin-left: 10%;
     margin-top: 0%;
     position: absolute;
 }
 #Jedan{
+    
+   
+    margin: auto;
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    
 }#Dva{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -245,6 +256,7 @@ font-size: 15px;
     
 }
 #Tri{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -253,6 +265,7 @@ font-size: 15px;
     height: 50px;
 }
 #Cetiri{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -261,6 +274,7 @@ font-size: 15px;
     height: 50px;
 }
 #Pet{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -269,6 +283,7 @@ font-size: 15px;
     height: 50px;
 }
 #Sest{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -277,6 +292,7 @@ font-size: 15px;
     height: 50px;
 }
 #Sedam{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -284,6 +300,7 @@ font-size: 15px;
     width: 50px;
     height: 50px;
 }#Osam{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -292,6 +309,7 @@ font-size: 15px;
     height: 50px;
 }
 #Devet{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -310,6 +328,7 @@ font-size: 15px;
     
 }
 #Deset{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -318,6 +337,7 @@ font-size: 15px;
     height: 50px;
 }
 #Jedanaest{
+   
    background-color:rgb(46, 45, 45);
    border-color:rgb(126, 124, 124) ;
    border:solid 1px;
@@ -326,6 +346,7 @@ font-size: 15px;
     height: 50px;
 }
 #Dvanaest{
+  
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -353,6 +374,7 @@ font-size: 15px;
     
 }
 #Trinaest{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -361,6 +383,7 @@ font-size: 15px;
     height: 50px;
 }
 #Cetrnaest{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -369,6 +392,7 @@ font-size: 15px;
     height: 50px;
 }
 #Petnaest{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -397,6 +421,7 @@ font-size: 15px;
     
 }
 #Sesnaest{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -405,6 +430,7 @@ font-size: 15px;
     height: 50px;
 }
 #Sedamnaest{
+ 
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -413,6 +439,7 @@ font-size: 15px;
     height: 50px;
 }
 #Osamnaest{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -441,6 +468,7 @@ font-size: 15px;
     
 }
 #Devetnaest{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -449,6 +477,7 @@ font-size: 15px;
     height: 50px;
 }
 #Dvadeset{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -457,6 +486,7 @@ font-size: 15px;
     height: 50px;
 }
 #DvadesetJedan{
+  
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
@@ -484,6 +514,7 @@ font-size: 15px;
     position: absolute;
 }
 #DvadesetDva{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -492,6 +523,7 @@ font-size: 15px;
     height: 50px;
 }
 #DvadesetTri{
+ 
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -500,6 +532,7 @@ font-size: 15px;
     height: 50px;
 }
 #DvadesetCetiri{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -508,6 +541,7 @@ font-size: 15px;
     height: 50px;
 }
 #DvadesetPet{
+  
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -516,6 +550,7 @@ font-size: 15px;
     height: 50px;
 }
 #DvadesetSest{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -524,6 +559,7 @@ font-size: 15px;
     height: 50px;
 }
 #DvadesetSedam{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -532,6 +568,7 @@ font-size: 15px;
     height: 50px;
 }
 #DvadesetOsam{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -540,6 +577,7 @@ font-size: 15px;
     height: 50px;
 }
 #DvadesetDevet{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -548,6 +586,7 @@ font-size: 15px;
     height: 50px;
 }
 #Trideset{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -575,6 +614,7 @@ font-size: 15px;
     
 }
 #TridesetJedan{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -584,6 +624,7 @@ font-size: 15px;
     margin-left: 0%;
 }
 #TridesetDva{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -593,6 +634,7 @@ font-size: 15px;
     margin-left: 25%;
 }
 #TridesetTri{
+  
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -602,6 +644,7 @@ font-size: 15px;
     margin-left: 40%;
 }
 #TridesetCetiri{
+    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
@@ -611,6 +654,7 @@ font-size: 15px;
     margin-left: 25%;
 }
 #TridesetPet{
+   
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
