@@ -2,7 +2,7 @@
   <div id="Home">
     
  
-  <router-link to="/Ticket"> <img id="Play" src="./../assets/PlayButton.png" > </router-link>
+  <router-link to="/Ticket"> <img  id="Play" src="./../assets/PlayButton.png" > </router-link>
   
 
   </div>

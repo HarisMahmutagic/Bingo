@@ -2,7 +2,7 @@
   <div id="Game">
 
   <div id="PrviRed"><br><br><br><br>
-<div id="Jedan"><p class="BrojUKuglici">{{dobitnaKombinacija[5]}}</p></div><br><br>
+<div   id="Jedan"><p class="BrojUKuglici">{{dobitnaKombinacija[5]}}</p></div><br><br>
 <div id="Dva"><p class="BrojUKuglici">{{dobitnaKombinacija[6]}}</p></div><br> <br>
 <div id="Tri"><p class="BrojUKuglici">{{dobitnaKombinacija[7]}}</p></div><br><br>
 <div id="Cetiri"><p class="BrojUKuglici">{{dobitnaKombinacija[8]}}</p></div><br><br>
@@ -121,16 +121,18 @@ export default {
 
   data: function() {
     return {
-      
+      brojac:0,
       dobitnaKombinacija: [],
    brojevi:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49],
    rand:0,
    
   }},
 
-  created:function(){
+  mounted:function(){
 
     var self=this;
+
+
 
 setTimeout(()=>{
 self.$router.push("/Final")
@@ -148,6 +150,8 @@ setTimeout(()=>{
   clearInterval(int);
   
   self.dobitnaKombinacija.push(self.rand);
+self.brojac++;
+
   for(let i=0;i<self.brojevi.length;i++){
 if(self.brojevi[i]==self.rand){
   self.brojevi.splice(i,1);
@@ -245,11 +249,31 @@ font-size: 15px;
     width: 50px;
     height: 50px;
     
-}#Dva{
+}
+#Jedan1{
+    margin: auto;
+    border-color:rgb(126, 124, 124) ;
+   border:solid 1px;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#Dva{
     
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+}
+#Dva1{
+    
+    border-color:rgb(126, 124, 124) ;
+   border:solid 1px;
+    background-image: url("./../assets/KuglicaMala.png");
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -264,11 +288,29 @@ font-size: 15px;
     width: 50px;
     height: 50px;
 }
+#Tri1{
+    
+    border-color:rgb(126, 124, 124) ;
+   border:solid 1px;
+    background-image: url("./../assets/KuglicaMala.png");
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
 #Cetiri{
     
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#Cetiri1{
+    
+    border-color:rgb(126, 124, 124) ;
+   border:solid 1px;
+  background-image: url("./../assets/KuglicaMala.png");
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -282,11 +324,29 @@ font-size: 15px;
     width: 50px;
     height: 50px;
 }
+#Pet1{
+    
+    border-color:rgb(126, 124, 124) ;
+   border:solid 1px;
+    background-image: url("./../assets/KuglicaMala.png");
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
 #Sest{
    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#Sest1{
+   
+    border-color:rgb(126, 124, 124) ;
+   border:solid 1px;
+   background-image: url("./../assets/KuglicaMala.png");
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -299,11 +359,30 @@ font-size: 15px;
     border-radius: 50%;
     width: 50px;
     height: 50px;
-}#Osam{
+}
+#Sedam1{
+    
+    border-color:rgb(126, 124, 124) ;
+   border:solid 1px;
+  background-image: url("./../assets/KuglicaMala.png");
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#Osam{
    
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
     background-color:rgb(46, 45, 45);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#Osam1{
+   
+    border-color:rgb(126, 124, 124) ;
+   border:solid 1px;
+   background-image: url("./../assets/KuglicaMala.png");
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -313,6 +392,15 @@ font-size: 15px;
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#Devet1{
+    
+    border-color:rgb(126, 124, 124) ;
+   border:solid 1px;
+  background-image: url("./../assets/KuglicaMala.png");
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -332,6 +420,15 @@ font-size: 15px;
     border-color:rgb(126, 124, 124) ;
    border:solid 1px;
    background-color:rgb(46, 45, 45);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#Deset1{
+   
+    border-color:rgb(126, 124, 124) ;
+   border:solid 1px;
+   background-image: url("./../assets/KuglicaMala.png");
     border-radius: 50%;
     width: 50px;
     height: 50px;

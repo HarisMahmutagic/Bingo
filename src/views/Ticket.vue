@@ -1,7 +1,7 @@
 <template>
   <div id="Ticket">
     
-    <button v-if="!prekidac" id="GetTicket" v-on:click="BirajTiket">Get Ticket !</button>
+    <button  v-if="!prekidac" id="GetTicket" v-on:click="BirajTiket">Get Ticket !</button>
 
 <p id="Game1">Igra pocinje za :</p>
 <p id="Counter">{{counter}}</p>
@@ -12,7 +12,7 @@
 
 <button  id="ESC" v-on:click="ESC">X</button>
 
-<button  class="Brojj" v-on:click="getBroj(broj)" v-bind:key="broj" v-for="broj in niz">{{broj}}</button>
+<button  v-bind:class="{'Brojj':!clicked(broj),'OznacenBroj':clicked(broj)}" v-on:click="getBroj(broj)" v-bind:key="broj" v-for="broj in niz">{{broj}}</button>
 </div>
 
 <div id="BrojTiketa"> <p id="BrojTiketaP">Broj Tiketa: {{BrojTiketa}}</p></div>
@@ -83,6 +83,14 @@ var sekCount = setInterval(function(){
 
 
   methods:{
+
+    clicked(x){
+      if(this.nizTemp.includes(x)){
+        return true
+      }else{
+        return false
+      }
+    },
     BirajTiket:function(){
       if(this.prekidacc==false){
 this.prekidacc=!this.prekidacc;
@@ -124,14 +132,17 @@ background-image: url("./../assets/KuglicaMala.png");
 margin-top: 4%;
 width: 48px;
 height: 48px;
+cursor: pointer;
 }
-.Brojj:focus{
-  margin-top: 4%;
+.OznacenBroj{
+  border-radius: 50%;
+margin-top: 4%;
 width: 48px;
 height: 48px;
-border-radius: 50%;
 background-color: black;
+border-color: black;
 }
+
 #BrojTiketa{
 width: 130px;
 height: 75px;
@@ -140,7 +151,7 @@ position: absolute;
 border:solid;
 border-radius: 20%;
 margin-left: 80vw;
-margin-top: 80vh;
+bottom: 15vh;
 }
 #BrojTiketaP{
   color: red;
@@ -158,6 +169,7 @@ left: 95%;
 position: absolute;
 width: 30px;
 height: 30px;
+cursor: pointer;
 }
 #Ticket{
 position: static;
@@ -180,6 +192,7 @@ background-size: cover;
   font-size: 20px;
 border-color: black;
 color: rgb(204, 7, 7);
+cursor: pointer;
 }
 #Game1{
   position: absolute;
